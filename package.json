@@ -1,0 +1,27 @@
+{
+  "name": "proof-of-competition-maxipublica",
+  "version": "1.0.0",
+  "description": "words allowed in messages",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victor15s/proof-of-competition-maxipublica.git"
+  },
+  "keywords": [],
+  "author": "Victor Wilfrido Salgado Giles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victor15s/proof-of-competition-maxipublica/issues"
+  },
+  "homepage": "https://github.com/victor15s/proof-of-competition-maxipublica#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "mongoose": "^6.2.2",
+    "nodemon": "^2.0.15"
+  }
+}
